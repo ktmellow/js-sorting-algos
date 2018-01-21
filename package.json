@@ -1,0 +1,24 @@
+{
+  "name": "js_sorting_algorithms",
+  "version": "1.0.0",
+  "description": "# Bubble Sort Exercise",
+  "main": "bubbleSort.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gSchool/js_sorting_algorithms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/js_sorting_algorithms/issues"
+  },
+  "homepage": "https://github.com/gSchool/js_sorting_algorithms#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
