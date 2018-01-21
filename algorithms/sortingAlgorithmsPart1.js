@@ -21,7 +21,18 @@ function bubbleSort(arr){
 }
 
 function selectionSort(arr) {
+  let newArr = arr.slice();
+  for(var i=0; i < newArr.length; i++) {
+    let mindex = i;
+    for(var j=i; j < newArr.length; j++) {
+      if(newArr[mindex] < newArr[j] ) {
+        mindex = j;
+      }
+    }
+    newArr.unshift(newArr.splice(mindex,1)[0]);
+  }
 
+  return newArr;
 }
 
 // this is different than bubblesort 
